@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Formulario de Adopción de Mascotas</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <h1>Formulario de Adopción de Mascotas</h1>
+
+        <h3>Fecha de la solicitud:</h3>
+        <input type="date" id="fecha" name="fecha" required>
+        <div class="form-group">
+        <p id="nota"><strong>Nota Importante:</strong> 
+             Por favor, 
+            completa todo el formulario para agilizar el proceso de adopción. 
+            Ten en cuenta que la finalización del formulario no garantiza la 
+            adopción de una mascota. Al enviar el cuestionario, 
+            autorizas a "Fundación Patitas Generation" a verificar 
+            la información proporcionada. 
+            Tu participación indica que has leído y aceptado nuestro Acuerdo 
+            de Adopción de Animales. La decisión de adopción queda a 
+            discreción de "Fundación Patitas Generation".
+        </p>
+
+        <h3>Datos Personales</h3>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+
+        <label for="ocupacion">Ocupación:</label>
+        <input type="text" id="ocupacion" name="ocupacion" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="celular">Teléfono celular:</label>
+        <input type="tel" id="celular" name="celular" required>
+
+        <label for="local">Teléfono local:</label>
+        <input type="tel" id="local" name="local">
+
+        <label for="estudios">Nivel de Estudios:</label>
+        <select id="estudios" name="estudios" required>
+            <option value="">-- Selecciona --</option>
+            <option value="primaria">Primaria</option>
+            <option value="secundaria">Secundaria</option>
+            <option value="preparatoria">Preparatoria</option>
+            <option value="universidad">Universidad</option>
+        </select>
+
+        <h3>Referencias</h3>
+        <!-- Referencia Personal -->
+        <label for="refPersonal">Referencia Personal:</label>
+        <input type="text" id="refPersonal" name="refPersonal" required>
+
+        <label for="telRefPersonal">Teléfono:</label>
+        <input type="tel" id="telRefPersonal" name="telRefPersonal" required>
+
+        <label for="relacionRefPersonal">Relación:</label>
+        <input type="text" id="relacionRefPersonal" name="relacionRefPersonal" required>
+
+        <!-- Referencia Familiar -->
+        <label for="refFamiliar">Referencia Familiar:</label>
+        <input type="text" id="refFamiliar" name="refFamiliar" required>
+
+        <label for="telRefFamiliar">Teléfono:</label>
+        <input type="tel" id="telRefFamiliar" name="telRefFamiliar" required>
+
+        <label for="parentescoRefFamiliar">Parentesco:</label>
+        <input type="text" id="parentescoRefFamiliar" name="parentescoRefFamiliar" required>
+        
+        <h2>Domicilio</h2>
+        
+        <label for ="direccion">Tipo de Domicilio</label>
+        <select id="direccion" name="direccion" required>
+            <option value="">-- Selecciona --</option>
+            <option value="casa">Casa</option>
+            <option value="departamento">Departamento</option>
+            <option value="oficina">Oficina</option>
+        </select>
+        <br>
+        <br>
+        <h2>Comentarios</h2>
+        <label for="mensaje">Mensaje:</label>
+        <br>
+        <textarea name="comentarios" id="comentarios" cols="80" rows="10"
+        placeholder="Ingrese sus comentarios"></textarea> 
+        <br>
+        <br>
+        </div>
+        <center>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+        </center>
+
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+

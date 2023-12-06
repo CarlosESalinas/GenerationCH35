@@ -1,0 +1,67 @@
+:root{
+    /* --Nombre-Variable */
+    --font-primary: 'Poppins', sans-serif;
+    --color-primary: #F2CB05;
+    --color-secondary: #D9042B;
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #d98e04;
+    --color-background: #F2C12E;
+    --color-light: #F2E6CE;
+    --color-dark: #070c26;
+}
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+}
+
+h1, h3{
+    font-family: var(--font-primary);
+    font-size: 2.8rem;
+    color: #d98e04;
+}
+
+form{
+    background-color: var(--color-light);
+    opacity: .1;
+    /*background-image: url("https://img.freepik.com/vector-premium/patron-fisuras-simbolo-cachorro-perro-lindo-juguete-pata-paso-concepto-perro-divertido-feliz-dibujos-animados-estilo-forma-simple-ilustracion-fondo-papel-tapiz-textil-tela_253081-200.jpg");*/
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 600px;
+    opacity: 1;
+
+}
+
+#nota{
+    font-size: 1.2rem;
+    color: var(--color-dark)
+
+}
+
+.form-group{
+    margin-bottom: 15px;
+    color: var(--color-dark);
+}   
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
