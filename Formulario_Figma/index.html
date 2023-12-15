@@ -2,38 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Figma</title>
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Your Page Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="gradient-background"></div>
-        <img  class ="image-container" />
-        <div class="overlay"></div>
-        <div class="white-box"></div>
-        <div class="title">Create your account</div>
-        <img class="google-logo" />
-        <div class="google-text">Use Google</div>
-        <div class="apple-logo">
-            <div class="apple-text"></div>
+    <div class="form-wrapper">
+        <div class="form-side">
+            <form class="my-form">
+                <div class="form-welcome-row"><h2>Create your account</h2>
+                    <div class="socials-row">
+                        <a href="https://www.google.com.mx/" title="Use Google">
+                            <img src="./assets/google_photo.png" alt="Google">Use Google
+                        </a>
+                        <a href="https://www.icloud.com/" title="Use Apple">
+                            <img src="./assets/Apple_logo_black.svg" alt="Apple">Use Apple
+                        </a>
+                    </div>
+                    <div class="divider">
+                        <div class="divider-line"></div>
+                        Or
+                        <div class="divider-line"></div>
+                    </div>
+                    <div class="text-field">
+                        <div>
+                            <label for="email">Email:</label>
+                        </div>
+                        <div>
+                            <input id="email" type="email" name="email" placeholder="Your email">
+                        </div>
+                    </div>
+                    <div class="text-field">
+                        <div>
+                            <label for="password">Password:</label>
+                        </div>
+                        <div>
+                            <input id="password" type="password" name="password" placeholder="Your password">
+                        </div>
+                    </div>
+                    <button type="submit" class="my-form__button">
+                        Login
+                    </button>
+                    <div class="my-form__actions">
+                        <a href="#">
+                            Already have a account?
+                        </a>
+                    </div>
+                </div>
+            </form>
         </div>
-        <div class="apple-text">Use Apple</div>
-        <div class="box-google"></div>
-        <div class="box-apple"></div>
-        <div class="email-tag">Email:</div>
-        <div class="box-email"></div>
-        <div class="email-label">Your email</div>
-        <div class="password-label">Password:</div>
-        <div class="password-box"></div>
-        <div class="password-text">Your password</div>
-        <div class="login-button"></div>
-        <div class="login-text">Login</div>
-        <div class="account-text">Already have a account?</div>
-        <div class="separator-left"></div>
-        <div class="separator-right"></div>
-        <div class="or-text">or</div>
+        <!-- Right side -->
+        <div class="info-side">
+            <img src="./assets/dev_photo.png" alt="mock-up" class="mockup">
+        </div>
     </div>
 </body>
 </html>
